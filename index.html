@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OBD Scanner — умная диагностика авто</title>
+  <style>
+    body { font-family: -apple-system, sans-serif; margin: 0; padding: 0; background: #f5f5f5; color: #222; }
+    .hero { background: #1a73e8; color: #fff; padding: 60px 20px; text-align: center; }
+    .hero h1 { font-size: 2.5em; margin: 0 0 10px; }
+    .hero p { font-size: 1.2em; opacity: .9; }
+    .content { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+    .features { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .feature { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+    .feature h3 { margin: 0 0 8px; }
+    .feature p { margin: 0; color: #555; font-size: .95em; }
+    .download { text-align: center; margin: 40px 0; }
+    .btn { display: inline-block; background: #1a73e8; color: #fff; padding: 14px 40px; border-radius: 8px; text-decoration: none; font-size: 1.1em; font-weight: 600; }
+    .btn:hover { background: #1557b0; }
+    footer { text-align: center; color: #888; font-size: .85em; padding: 30px; }
+    @media (max-width: 600px) { .features { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>OBD Scanner</h1>
+    <p>Умный диагностический сканер для Android</p>
+  </div>
+  <div class="content">
+    <div class="features">
+      <div class="feature">
+        <h3>Чтение ошибок</h3>
+        <p>Расшифровка DTC-кодов с описанием неисправности</p>
+      </div>
+      <div class="feature">
+        <h3>Живые параметры</h3>
+        <p>RPM, температура, нагрузка, напряжение — в реальном времени</p>
+      </div>
+      <div class="feature">
+        <h3>AI-анализ</h3>
+        <p>Сканер сам анализирует данные и даёт рекомендации</p>
+      </div>
+      <div class="feature">
+        <h3>VIN-декодинг</h3>
+        <p>Определение марки, модели, двигателя по VIN</p>
+      </div>
+    </div>
+    <div class="download">
+      <a class="btn" href="#">Скачать APK</a>
+      <p style="color:#888; font-size:.85em; margin-top:8px">Требуется ELM327 + Bluetooth</p>
+    </div>
+  </div>
+  <footer>OBD Scanner &copy; 2026</footer>
+</body>
+</html>
